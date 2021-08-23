@@ -11,7 +11,9 @@ Observe um exemplo de resposta no que se refere aos arrays que você deve constr
 
 import numpy as np
 
-print(f'\n{1}')
+print()
+print('=' * 39)
+print('Ex.1')
 print(np.arange(0, 6))                  # array de 1 dimensão
 print(type(np.arange(0, 6)))
 print(f'Formato => {np.arange(0, 6).shape}')
@@ -34,4 +36,30 @@ print(type(c))
 print(f'Formato => {c.shape}')
 print(f'Tamanho => {c.size}')
 print(f'Dimensão => {c.ndim}')
+
+'''2) Crie uma matriz identidade com dimensões 5 X 5.'''
+
+print('=' * 39)
+print('Ex.2')
+print(np.identity(5, dtype=float))
+
+'''3) Crie uma matriz 3 X 3 com todos os elementos iguais a 1.'''
+
+print('=' * 39)
+print('Ex.3')
+print(np.ones((3, 3)))
+
+'''4) Crie uma matriz $2 \times 3$ com elementos de valores aleatórios entre 0 e 20.'''
+
+print('=' * 39)
+print('Ex.4')
+print(np.random.rand(2, 3))
+
+'''5) Crie o vetor [9, 8, 7, 6, 5, 4, 3, 2, 1] utilizando as duas funções vistas na 
+aula que são capazes de criar um vetor como este, de forma automática.'''
+
+print('=' * 39)
+print('Ex.5')
+print(np.arange(9, 0, -1))
+print(np.linspace(9, 1, 9, dtype=int))
 
