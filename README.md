@@ -7,6 +7,7 @@ Esse repositório consiste em uma série de códigos desenvolvidos com python, o
 # Tecnologias utilizadas
 - Jupyter Notebook
 - Python
+- R
 
 
 # Autor
